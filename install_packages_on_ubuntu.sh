@@ -4,8 +4,13 @@
 
 #Base on ubuntu 18.04
 #----------------------------------------------------------------------------------------------------------------------------
+sudo apt -y update
+sudo apt -y upgrade
+
 
 sudo apt isntall -y \
     terminator \
     exfat-fuse \
-    exfat-utils
+    exfat-utils \
+    git \
+    net-tools
