@@ -34,10 +34,14 @@ source ~/.bashrc
 # 1.7 Dependencies for building packages
 #To install this tool and other dependencies for building ROS packages, run:
 sudo apt install -y \
+    python-rosdep \
     python-rosinstall \
     python-rosinstall-generator \
     python-wstool \
     build-essential
+
+sudo rosdep init
+rosdep update
 
 # 2 Creating a workspace for catkin
 source /opt/ros/melodic/setup.bash
