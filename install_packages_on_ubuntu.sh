@@ -8,7 +8,7 @@ sudo apt -y update
 sudo apt -y upgrade
 
 
-sudo apt isntall -y \
+sudo apt install -y \
     terminator \
     exfat-fuse \
     exfat-utils \
