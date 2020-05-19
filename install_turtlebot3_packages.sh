@@ -31,7 +31,7 @@ sudo apt-get install -y \
 
 source /opt/ros/melodic/setup.bash
 mkdir -p ~/catkin_ws/src
-cd ~/turtlebot_ws/src/
+cd ~/catkin_ws/src/
 git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
